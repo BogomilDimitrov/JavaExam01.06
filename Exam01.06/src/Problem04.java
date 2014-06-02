@@ -9,7 +9,7 @@ public class Problem04 {
 
 		int n = Integer.parseInt(scan.nextLine());
 		TreeMap<String, TreeMap<String, Integer>> users = new TreeMap<>();
-		String[] readLine = new String[n * 3];
+		String[] readLine = new String[n];
 		
 		//Input
 		for (int i = 0; i < n; i++) {
